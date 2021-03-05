@@ -38,7 +38,20 @@
 
                .radiobutton{
                   list-style-type: none;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  -ms-appearance: none;
+                  -o-appearance: none;
                   appearance: none;
+                  // nex styles specially for IOS-devices
+                  position: absolute;
+                  clip: rect(1px 1px 1px 1px);
+                  clip: rect(1px, 1px, 1px, 1px);
+                  padding: 0;
+                  border: 0;
+                  height: 1px;
+                  width: 1px;
+                  overflow: hidden;
                 }
 
                .radiobutton:checked + .button {
