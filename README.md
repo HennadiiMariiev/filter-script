@@ -43,7 +43,7 @@
                   -ms-appearance: none;
                   -o-appearance: none;
                   appearance: none;
-                  // nex styles specially for IOS-devices
+                  // next styles specially for IOS-devices
                   position: absolute;
                   clip: rect(1px 1px 1px 1px);
                   clip: rect(1px, 1px, 1px, 1px);
