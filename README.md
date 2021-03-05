@@ -42,7 +42,7 @@
                 }
 
                .radiobutton:checked + .button {
-                  color: getColor('active'); ;  
+                  color: getColor('active');  
                   background-color: getColor('accent');
                 }
     
