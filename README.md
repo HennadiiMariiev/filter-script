@@ -60,6 +60,12 @@
                   color: getColor('active');  
                   background-color: getColor('accent');
                 }
+                
+                .radiobutton:focus + .button {
+                  color: getColor('active');  
+                  background-color: getColor('accent');
+                  outline: 2px solid #000;
+                }
     
     
 4. добавить скрипт в новый js-файл (например, filter.js) и подключить его на странице Портфолио
